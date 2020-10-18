@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Have a lovely day!</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
+    <link href="/styles/styles.css" rel="stylesheet" />
+    <link href="/styles/animate.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="area">
+      <ul class="circles">
+        <li><img src="/img/logo.png" alt="" /></li>
+        <li><img src="/img/logo.png" alt="" /></li>
+        <li><img src="/img/logo.png" alt="" /></li>
+        <li><img src="/img/logo.png" alt="" /></li>
+        <li><img src="/img/logo.png" alt="" /></li>
+        <li><img src="/img/logo.png" alt="" /></li>
+        <li><img src="/img/logo.png" alt="" /></li>
+        <li><img src="/img/logo.png" alt="" /></li>
+        <li><img src="/img/logo.png" alt="" /></li>
+        <li><img src="/img/logo.png" alt="" /></li>
+      </ul>
+      <div class="flex justify-center flex-wrap">
+        <div class="text-gray-700 text-center my-56">
+          <div id="datetime"></div>
+          <div id="content" class="text-5xl xs:text-xl" title="hai"></div>
+          <div id="subContent" class="text-xl animated rubberBand slow"></div>
+        </div>
+      </div>
+      <div class="flex justify-center flex-wrap mt-8">
+        <audio controls autoplay loop id="music"></audio>
+      </div>
+      <div class="flex justify-center flex-wrap mt-8">
+        Designed with ❤️ by zalfaridzi
+      </div>
+    </div>
+  </body>
+  <script src="moment.min.js"></script>
+  <script src="index.js"></script>
+</html>
