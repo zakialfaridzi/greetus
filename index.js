@@ -56,7 +56,7 @@ if (now == 1) {
   datetime();
   typeWriter();
 
-  document.body.style.backgroundColor = "#edf2f7";
+  document.body.style.backgroundColor = "#FFF7AA";
   document.getElementById("music").innerHTML =
     '<source src="music/Chet Baker - But Not For Me.mp3" type="audio/mpeg">';
   document.getElementById("subContent").innerHTML = submain;
